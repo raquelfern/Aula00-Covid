@@ -1,0 +1,27 @@
+Título: "Como chegamos até aqui?"
+
+Perguntas e respostas: 
+1) Sabe a diferença entre um cliente e um servidor para a internet?
+R: O cliente é a máquina que deseja algum dado e o servidor é onde estão esses possíveis dados.
+2) Para que serve HTML, CSS e JavaScript?
+R: HTML serve para dispor o conteúdo, o CSS é o estilo/aparência do site e o JS é a programação e interação
+desse site.
+3) Cite 4 sites que fazem uso do JavaScript.
+R: Google, Youtube, Amazon e Gmail.
+
+-> ECMAScript é a padronização do JavaScript.
+-> Um Framework (biblioteca) muito importante é o JQuery.
+Bibliotecas:
+-> JQuery;
+-> Angular (linguagem mais declarativa);
+-> React;
+-> VUE;
+-> Electron;
+-> Aionic (SDK para poder criar aplicações para dispositivos móveis que utiliza o nodejs).
+Bibliotecas para jogos:
+-> Phaser;
+-> PixiJS;
+-> Impact;
+-> Melon.JS;
+-> CraftyJS.
+Existem várias bibliotecas para criação de jogos no JavaScript, mas para isso é preciso saber a base.

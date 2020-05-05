@@ -1,0 +1,37 @@
+Título: "Dandos os primeiros passos"
+
+Perguntas e respostas:
+1) Sabe que empresa criou o JavaScript?
+R: Empresa Netscape.
+2) Java e JavaScript possuem alguma relação?
+R: Não. 
+3) O que ECMAScript tem a ver com o Java Script?
+R:
+4) Sabia que o programa WhasApp desktop é criado em JavaScript?
+R: Não.
+
+Nesta aula 03, o professor Rogrido Guanabara, dá dicas e explica como iniciar os estudos no JavaScript e ensina
+a instalar o Visual Studio Code.
+
+Dúvidas comuns:
+"Será que sou velho demais para começar?" ou "Será que sou novo demais para começar?"
+R: Não existe idade mínima ou máxima para começar.
+"Para você programar, você deve ser homem."
+R: Os melhores programados que eu conheço são mulheres.
+"Ah, mas eu não moro em uma cidade grande."
+R: Se você quer programar, corre atrás e aprende. Hoje a internet está aí para ajudar a todos.
+"Ah, eu preciso ser muito nerd para programar."
+R: Não, você precisa ter vontade e força. Para de se sentir especial só porque você sabe programar. Muita gente
+sabe programar. Não desmereça quem está começando.
+"Para programar é preciso ser mestre em matemática e inglês."
+R: Não, é só você querer programar.
+etc...
+
+Bibliografias:
+-> JavaScript - O Guia Definitivo;
+-> JavaScript - Guia do Programador;
+-> Guia de referência da mozilla e da ecma (totalmente gratuitos);
+Softwares:
+-> Navegador;  }
+-> VSCode;     }  Tudo já instalado.
+-> NodeJS;     }

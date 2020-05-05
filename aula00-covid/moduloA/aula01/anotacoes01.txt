@@ -1,0 +1,29 @@
+Título: "O que o JavaScript é capaz de fazer?"
+
+    Nesta aula, o professor Gustavo Guanabara, ensina comandos JavaScript para modificar a plataforma Google e
+mostra como fica alguns sites sem o JS. Além disso, ele explica partes importantes do JavaScript para iniciantes.
+
+Client X Server:
+O computador e o celular são um cliente. E, tecnicamente, a internet busca os dados no servidor para o cliente.
+Dentro desse servidor, existem pastas e diretórios internos, no qual estão armazenados o arquivo que você está
+interessado, que pode ser uma foto, um texto, ou até mesmo um vídeo. E, na maioria das vezes, é um arquivo html.
+
+A jornalista gera Conteúdo.
+O Designer gera a Aparência/Estilo.
+O Programador gera a engenharia da Programação.
+-----------------------------------------------
+Conteúdo = HTML.
+Estilo = CSS.
+Programação = JS.
+
+INTERAGINDO COM O GOOGLE ATRAVÉS DO INSPECIONAR:
+Console:
+alert('Olá, mundo');
+Mudando a cor do fundo do Google: document.body.style.background = 'black'
+Mudando a logo do Google: document.querySelector('img#hplogo').style.filter = 'grayscale(100%)
+Sumir com a logo: document.querySelector('img#hplogo').style.visibility = 'hidden'
+Alterando texto: document.querySelector('span.bstn-hl-title').innerText = 'Qualquer texto'
+Desabilitando o JavaScript no Inpecionar
+--> Clica nas reticências --> Clica em configurações --> Desabilitar JS --> Atualizar.
+
+CURIOSIDADE: O Youtube é muito dependente do JS, sem isso, você não consegue acessá-lo.

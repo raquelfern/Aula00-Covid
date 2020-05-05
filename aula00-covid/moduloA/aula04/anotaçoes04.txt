@@ -1,0 +1,11 @@
+Título: "Criando o seu primeiro script"
+
+Perguntas e respostas:
+1) Que livros/documentos nós recomendamos?
+R: JavaScript- Guia do Programador e Guia de referência da Mozilla e da Ecma (totalmente gratuitos).
+2) Para aprender JS, precisamos saber inglês?
+R: Não, basta querer aprender a programar.
+3) Que dicas nós demos para quem quer estudar?
+R: Ter 100% de foco e força de vontade e anotar todos materiais novos que você aprender para não perder nada.
+4) Quais programas nós instalamos no computador?
+R: Navegador, VSCode e NodeJS.
