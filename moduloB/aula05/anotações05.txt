@@ -1,0 +1,42 @@
+O que vamos aprender no módulo B?
+--> Armazenamento de dados;
+--> Tratamento de dados;
+--> Operações com dados.
+
+Título: "Variáveis e Tipos Primitivos"
+
+Perguntas e respostas:
+1) Você aprendeu a organizar suas pastas com VSCode? E para que serve?
+R: Sim. O Node.js pode ser definido como um ambiente de execução JS, com ele é possível criar aplicações Javascript
+para rodar como uma aplicação, não dependendo de um browser para a execução. O Node.js é um runtime.
+2) O Node.js está instalado no seu computador?
+R: Sim.
+3) Sabe diferenciar HTML5, CSS3 e JS dentro de um código?
+R: Sim.
+4) Sabe disparar alertas, confirmaçãoes e perguntas?
+R: Sim, window.alert() para alertas, window.confirm() para confirmações e window.prompt() para perguntas.
+
+Nesta aula, o Professor Rodrigo, ensina como armazenar os dados nas variáveis através dos comandos window.confirm()
+e window.prompt().
+
+Dicas:
+--> Maiúsculas e minúsculas fazem diferença;
+--> Tente escolher nome coerentes para as variáveis;
+--> Evite se tornar um 'programador alfabeto' ou um 'programador contar'.
+Sendo assim, variáveis servem para armazenar dados.
+
+5, 18 e -12 --> são números inteiros, chamado de int                  } Ambos são considerados
+0.5, -15.9, 3.14 e 8.0 -- são com pontos flutuantes, chamado de float } number
+
+"Google"       }
+'JavaScript'   } Todos considerados string
+`Maria`        }
+
+True e False   } Considerado booblean ou valor booleano
+
+Há outros tipos:
+--> Nulll;
+--> Undefined;
+--> Object --> Array (vetor);
+--> Function.
+Para usar, usa-se typeof

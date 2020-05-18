@@ -1,0 +1,68 @@
+Título: "Operadores (parte 2)"
+
+Perguntas e respostas:
+1) Para que serve o operador % em JS? Seria para calcular porcentagem?
+R: Não, o operador % serve para encontrar o resto da divisão inteira.
+2) 6 + 4 / 2 é igual a 5 ou 8?
+R: 8, pois começa a calcular, de acordo com precedência, a divisão.
+3) Se uma variável n está valendo 10 e executamos um n += 5, qual será seu novo valor?
+R: 15.
+4) Para que servem os operadores ++ e --?
+R: Para incrementar ou decrementar.
+
+Nesta aula, o Professor Guanabara, ensina a parte 2 sobre operadores no JS, que são os: relacionais, lógicos
+e ternário.
+
+Operadores Relacionais:
+>         maior
+<         menor   
+>=        maior ou igual  
+<=        menor ou igual
+==        igual
+!=        diferente
+
+Exemplos:
+-> preço >= 200.50          // o preço é maior ou igual a 200.50?
+-> idade < 18                  // a idade é menos do que 18?
+-> curso == 'JavaScript'       // o curso é JavaScript?
+-> n1 != n2                    // o primeiro número é diferente do segundo?
+
+"O sinal de igualdade não testa o tipo. Quando se usa os três sinais de igual '===' testa o valor e o tipo
+idêntico."
+
+Operadores Lógicos:
+!         negação
+&&        conjunção (e)
+||        disjunção (ou)
+
+true && true --> true
+true && false --> false
+false && true --> false
+false && false --> false
+
+true || true --> true
+true || false --> true
+false || true --> true
+false || false --> false
+
+Exemplos:
+-> idade >= 15 && idade <= 17           // a idade está entre 15 e 17?
+-> estado == 'RJ' || estado == 'SP''    // o estado é RJ ou SP?
+-> salário > 1500 && sexo != 'M'        // o salário é acima de 1500 e não é homem?
+
+ORDEM DE PRECEDÊNCIA:
+|      () ** /
+|      >  <  >==
+|      !
+|      &&
+|      ||
+v
+
+Operadores Ternários:
+? :        // dentro de uma mesma impressão
+
+"Ele chama ternário porque são três blocos."
+teste ? true : false
+
+Exemplo:
+média >= 7.0 ? 'Aprovado' : 'Reprovado'    // a média é maior que 7? então "Aprovado', senão 'Reprovado'

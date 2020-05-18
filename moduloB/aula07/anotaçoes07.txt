@@ -1,0 +1,61 @@
+Título: "Operadores (Parte 1)"
+
+Perguntas e respostas:
+1) Como é possível guardar o valor digitado em um prompt() dentro de uma variável?
+R: var n1 = window.prompt('Texto desejado'); 
+2) Como fazer com que um número digitado em um prompt() possa ser usado em cálculos?
+R: var n1 = Number(window.prompt('Digite um valor: '));
+3) Como transformar um texto todo para letras MAIÚSCULAS?
+R: n1.toUpperCase()
+4) Como mostrar um número formatado como um valor monetário?
+R: n1.toLocaleString('pt-BR', {style: 'currency, currency: 'BRL'})
+
+O JavaScript possui várias famílias de operadores, porém vamos usar só estes:
+--> Aritméticos;    } vamos focar nos
+--> Atribuição;     } dois operadores
+--> Relacionais;
+--> Lógicos;
+--> Ternário.
+
+"typeof é um tipo de operador, também."
+
+OPERADORES ARITMÉTICOS:
+São operados utilizados para fazer o cálculo.
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1   -> é considerado o resto da divisão inteira
+5 ** 2 = 25 -> é considerado a potência, significa 5 ao quadrado
+
+"A linguagem só dá erro, se tiver um erro sintático."
+Ex: 5 + / 2 
+
+ORDEM DE PRECEDÊNCIA DOS OPERADORES:
+|    ()
+|    **     -> potencias
+|    * / %
+|    + -
+v
+
+OPERADOR DE ATRIBUIÇÃO SIMPLES:
+var a = 5 + 3 (a variável a recebe o valor de 5 + 3)         8
+var b = a % 5 (a variável b recebe o porcento de a com 5)    3
+var c = 5 * b ** 2                                           45
+var d = 10 - a / 2                                           6
+var e = 6 * 2 / d (quando tem a mesma ordem de precedência, eu faço quem aparece primeiro) 2
+var f = b % e + 4 / e                                        3
+
+AUTO-ATRIBUIÇÕES:
+var n = 3                   3
+n = n + 4                   7 (n passa a valer 7)
+n = n - 5                   2 (n passa a valer 2)
+
+SIMPLIFICANDO:
+n = n + 4       ------>     n += 4 (só vale se n receber n)
+n = n % 5       ------>     n %= 5
+
+OPERADORES DE INCREMENTO:
+var x = 5                         5
+x = x + 1      x += 1     x++     6
+x = x - 1      x -= 1     x--     5
