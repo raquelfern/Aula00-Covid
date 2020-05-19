@@ -1,0 +1,35 @@
+Título: "Eventos DOM".
+
+Perguntas e respostas:
+1) O que significa a sigla DOM?
+R: Document Object Model (Modelo de Objeto para Documento).
+2) Sabe montar a árvore DOM de um website?
+R: Sim.
+3) O que são os elementos Parent e os elementos
+Child em uma árvore DOM?
+R: Parent é o elemento que está acima do outro, e child é o
+elemento que está abaixo.
+4) Quais são os cinco principais métodos de selecionar
+elementos DOM dentro do JS?
+R: TagName, ID, Name, ClassName e querySelector.
+
+*Evento é tudo aquilo que pode acontecer com a sua div.
+Eventos:
+-> mouseenter
+-> mousemove   - quando passar o mouse em cima
+-> mousedown   - clicar e segurar
+-> mouse up    - soltar o clique
+-> click
+-> mouseout
+Eventos que podem ser disparados só com o movimento do mouse.
+
+*Event Reference - Pesquisar.
+
+Função:
+É um conjunto de códigos que vão ser executadas só quando o evento ocorrer.
+Ex: 
+Function ação(paramêtros){
+    ...........
+    ...........
+    ...........
+}

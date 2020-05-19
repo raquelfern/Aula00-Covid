@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com DOM</title>
+    <style>
+        body{
+            background-color: rgb(55, 0, 80);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado!</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]; //[0] zero é o primeiro paragráfo que vai aparecer.
+        /*
+        var d = window.document.getElementById('msg');
+        d.style.background = 'green';
+        d.innerText = 'Estou aguardando...';
+        */
+        /*
+        var d = document.getElementsByName('msg');
+        */
+
+        /*
+        document.write(p1.innerHTML); //Usando o html já vem com a formatação (negrito).
+        innerText pega simplesmente o texto, sem o estilo.
+        window.document.write('Está escrito assim: ' + p1.innerText); //O que está escrito dentro do p
+        corpo.style.background = 'black';
+        p1.style.color = 'blue';
+        */
+
+        /*
+        var d = window.document.querySelector('div#msg');
+        d.style.background = 'blue';
+        */
+    </script>
+</body>
+</html>

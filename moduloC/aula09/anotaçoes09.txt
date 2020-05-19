@@ -1,0 +1,48 @@
+Entendendo o DOM - Document Object Model
+Título: "Introdução ao DOM"
+
+Perguntas e respostas:
+1) Qual é a diferença entre usar =, == e === em códigos escritos e JS?
+R: = é atribuição, == é se o valor é igual ao outro sem analisar o tipo e === é para saber se
+um valor é igual ao outro e do mesmo tipo.
+2) Em uma mesma expressão, temos os operadores || e &&. Quem eu resolvo primeiro? 
+R:
+3) Sabe usar o operador ternário para colocar um entre dois valores em uma variável?
+R: Sim.
+
+Instalando programas:
+-> Watch in Chrome;
+->. Node Exec;
+-> Abrir link "VS Code Watch in Chrome".
+
+Comando para abrir o html direto no navegador: ctrl + shift + p.
+
+O que é DOM? 
+É um acronimo para Document Object Model (modelo de objetos para documentos). Basicamente, é um
+conjunto de objetos dentro do seu navegador que vai dar acesso aos componentes internos do seu 
+web site. O DOM não funciona dentro do NODEJS. O DOM está presente quando estou rodando JS 
+dentro do meu navegador.
+
+Árvore DOM:
+Começa da raíz - window, dentro do window eu tenho outros objetos:
+window - location (qual foi o último arquivo), document (documento atual), history (guarda
+de onde você veio para onde você vai).
+Document - html.
+Html - head e body.
+Head - meta, title, etc.
+Body - h1, P, P, div.
+Elemento é tudo o que aparece na minha árvore DOM.
+
+Dentro de script: 
+window.document.write(window.document.URL);
+
+Há vários métodos para selecionar os elementos e navegar dentro da minha árvore DOM:
+-> por Marca (tag);
+comando: getElementsByTagName().
+-> por ID;
+comando: getElementByID().
+-> por Nome;
+comando: getElementsByName().
+-> por Classe;
+comando: getElementByClassName().
+-> por Seletor.
