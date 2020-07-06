@@ -1,0 +1,41 @@
+Título: "Condições (parte 2)"
+
+Perguntas e respostas:
+
+1) Já sabe como sar a extensão Node Exec no VSCOde?
+R: Sim.
+2) Sabe criar uma condição em seu programa JS?
+R: Sim.
+3) Consegue diferenciar condições simples e as condições compostas?
+R: Sim.
+
+Condições aninhadas: vou pegar uma condição composta e colocarei outras condições dentro dela.
+
+if (cond1) {
+    bloco1
+} else {
+    if (cond2) {
+        bloco2
+    } else {
+        bloco3
+    }
+}
+
+Comando que pega hora atual: new Date()
+
+Condição Múltipla: serve para valores fixos. Ela tem a possibilidade além do sim e não.
+
+switch (expressão) {
+    case valor1:
+        bloco1
+        break;
+    case valor2:
+        bloco2
+        break;
+    case valor3:
+        bloco3
+        break;
+    default:
+        bloco4
+        break;
+}

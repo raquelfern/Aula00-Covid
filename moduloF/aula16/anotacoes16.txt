@@ -1,0 +1,37 @@
+Título: "Funções"
+
+Perguntas e respostas:
+1) Conseguiu simplificar seus códigos com o uso de Array?
+R: Sim, muito.
+2) Sabe colocar um array em ordem usando apenas uma chama de função?
+R: Sim, usando "num.sort()".
+3) Lembra como disparar uma função simples quando apertamos um botaão?
+R: Sim, onclick="função()".
+4) Quer aprender mais sobre funções?
+R: Sim.
+
+Toda função precisa ter: 
+--> Chamada.
+--> Parâmetro.
+--> Ação.
+--> Retorno.
+
+*São ações executadas assim que são chamadas ou em decorrência
+de algum evento.
+* Uma função pode recerber parâmetros e retornar um resultado.
+
+function ação(param){
+    return res  // retornando a chamada
+}
+ação(5)         // está fazendo a chamada
+
+-- Função para saber se o número é ímpar ou par --
+
+function parimp(n){
+    if(n%2==0){
+        return 'par'
+    } else{
+        return 'impar'
+    }
+}
+var res = parimp(11)

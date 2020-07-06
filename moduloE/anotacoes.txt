@@ -1,0 +1,10 @@
+Perguntas e respostas:
+
+1)Já aprendeu a usar direito a extensão Watch in Chrome no vscode?
+R: Sim.
+2) Já aprendeu a usar o modo de apuração?
+R: Sim.
+3) Já fez todos os testes com as estruturas while, do..while e for?
+R: Sim.
+4) Quer aprender um pouco mais como manipular dados em controles HTML com JS?
+R: Sim.

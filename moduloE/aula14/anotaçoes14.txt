@@ -1,0 +1,21 @@
+Título: "Repetições (Parte2)"
+
+Perguntas e respostas:
+1) O que faço se quiser fazer uma determinada atividade acontecer várias vezes?
+R: Usa-se o laço de repetição, do ou while.
+2) Sabe diferenciar as estruturas de condição e as estruturas de repetição?
+R: Sim. Condição: se (if). Repetição: enquanto (do ou while).
+3) Consegue dizer a diferença entre as estruturas while e a do..while?
+R: While: estrutura de repetição de teste lógico que acontece no início. Do..while: estrutura de repetição 
+de teste lógico que acontece no final.
+
+Repetição com variável de controle: são feita três coisas, inicialização, teste lógico e incremento. No 
+momento do loop ele faz um incremento.
+
+for (inicio; teste; incr){
+    Bloco1
+}
+
+for (var c=1; c<=10 ; c++){
+    Bloco1
+}

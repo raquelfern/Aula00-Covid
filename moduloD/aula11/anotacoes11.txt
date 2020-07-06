@@ -1,0 +1,29 @@
+Título: "Condições (parte 1)"
+Perguntas e respostas:
+
+1) Consegue citar três eventos que podem acontecer com elementos DOM de um site?
+R:
+2) O que é uma função? Como criar funções em JS?
+R:
+3) Sabe como pegar os valores de caixas de textos e fazer cálculos com eles?
+R:
+
+Sequências:
+var n = 3    -->     n += 2    -->     window.alert(n)
+
+Condições: executar uma condição para quebrar a sequência. Chamamos de desvio condicional.
+
+if (condição){
+    true
+
+} else{
+    false
+
+}
+
+Tipos de condição:
+if (condição){
+    true
+} 
+Condição simples.
+

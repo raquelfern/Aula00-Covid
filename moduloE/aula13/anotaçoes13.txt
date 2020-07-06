@@ -1,0 +1,39 @@
+Título: "Repetições (Parte 1)"
+
+Perguntas e respostas:
+1) Sabe mudar a cor de fundo de um site dinamicamente, usando JS?
+R: Sim.
+2) Consegue inserir uma imagem dentro do seu site sem ter a tag <img> previamente criada?
+R: Sim.
+3) Já treinou bastante o uso de condições simples, compostas, aninhadas e múltiplas?
+R: Sim.
+
+Exemplo:
+Function comerPizza(){
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+--> Sequências;
+--> Condições;
+
+Repetições: a condição sendo verdadeira, ele executa novamente enquanto for verdade.
+
+while (condição) { //estrutura de repetição com teste lógico no início
+    //bloco acontecerá enquanto a condição for verdadeira
+}
+
+function comerPzza(){
+    while (temFatia()){
+        comerFatia()
+    }
+} //Programa mais eficiente
+
+do { //estrutura de repetição com teste lógico no final
+
+} while (condiçãoo)

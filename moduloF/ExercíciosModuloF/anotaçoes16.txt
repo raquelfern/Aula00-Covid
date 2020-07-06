@@ -1,0 +1,8 @@
+Perguntas e respostas:
+
+1) Já aprendeu a usar direito a extensão Watch in Chrome no VSCode?
+R: Sim.
+2) Já aprendeu a usar o Modo de Depuraçõ do VSCode?
+R: Sim.
+3) Já treinou bastante com os componentes array e function?
+R: Sim.
